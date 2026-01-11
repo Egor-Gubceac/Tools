@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таймер</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">На главную</a>
+        <h1 class="main-title">Таймер</h1>
+ <div class="timer-container">
+    <label class="timer-label">
+      Выберите дату и время
+      <input id="datetime-picker" class="timer-input" type="text" />
+    </label>
+
+<button type="button" class="timer-button" data-start>Старт</button>
+
+    <div class="timer-display">
+      <div class="timer-segment">
+        <span class="timer-value" data-days>00</span>
+        <span class="timer-text">Дней</span>
+      </div>
+      <div class="timer-segment">
+        <span class="timer-value" data-hours>00</span>
+        <span class="timer-text">Часов</span>
+      </div>
+      <div class="timer-segment">
+        <span class="timer-value" data-minutes>00</span>
+        <span class="timer-text">Минут</span>
+      </div>
+      <div class="timer-segment">
+        <span class="timer-value" data-seconds>00</span>
+        <span class="timer-text">Секунд</span>
+      </div>
+    </div>
+  </div> 
+    </main>
+
+    <script type="module" src="./js/1-timer.js"></script>
+  </body>
+</html>
